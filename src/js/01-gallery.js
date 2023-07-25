@@ -2,8 +2,8 @@
 
 // Add imports above this line
 import { galleryItems } from './gallery-items';
-import SimpleLightbox from 'simplelightbox/simple-lightbox';
-import 'simplelightbox/simple-lightbox.min.css';
+import SimpleLightbox from 'simple-lightbox';
+import 'simple-lightbox/dist/simpleLightbox.min.css';
 // Change code below this line
 
 // Пошук порожнього списку для майбутньої галереї
