@@ -1,13 +1,17 @@
 // Add imports above this line
 import { galleryItems } from './gallery-items';
 import SimpleLightbox from 'simple-lightbox';
-import 'simple-lightbox/dist/simpleLightbox.min.css';
+// Add imports above this line
+import { galleryItems } from './gallery-items';
+import SimpleLightbox from 'simple-lightbox';
+import 'simple-lightbox/dist/simple-lightbox.min.css';
 // Change code below this line
 
 // Пошук порожнього списку для майбутньої галереї
 const gallery = document.querySelector('.gallery');
 
 // Створення функції для розмітки галереї
+
 const makeGalleryMarkup = image => {
   const { preview, original, description } = image;
 
@@ -22,10 +26,7 @@ const makeGallery = galleryItems.map(makeGalleryMarkup).join('');
 gallery.insertAdjacentHTML('afterbegin', makeGallery);
 
 // Створення самого лайтбоксу та додавання відображення напису з alt
-const lightbox = new SimpleLightbox('.gallery a', {
-  captionsData: 'alt',
-  captionDelay: 250,
-});
+new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
 
 // Change code below this line
 console.log(galleryItems);
