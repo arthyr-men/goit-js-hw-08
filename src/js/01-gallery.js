@@ -3,7 +3,7 @@
 // Add imports above this line
 import { galleryItems } from './gallery-items';
 import SimpleLightbox from 'simplelightbox/dist/simple-lightbox.js';
-import 'simplelightbox/dist/simple-lightbox.min.css';
+import 'simplelightbox/dist/simplelight-box.css.css';
 // Change code below this line
 
 // Пошук порожнього списку для майбутньої галереї
