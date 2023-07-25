@@ -1,10 +1,7 @@
 // Add imports above this line
-import { galleryItems } from './gallery-items';
-import SimpleLightbox from 'simple-lightbox';
-// Add imports above this line
-import { galleryItems } from './gallery-items';
-import SimpleLightbox from 'simple-lightbox';
-import 'simple-lightbox/dist/simple-lightbox.min.css';
+const { galleryItems } = require('./gallery-items');
+const SimpleLightbox = require('simple-lightbox');
+require('simple-lightbox/dist/simple-lightbox.min.css');
 // Change code below this line
 
 // Пошук порожнього списку для майбутньої галереї
